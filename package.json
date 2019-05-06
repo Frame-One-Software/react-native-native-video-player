@@ -1,12 +1,38 @@
 {
-  "name": "react-native-native-video-player",
-  "version": "1.4.0",
-  "description": "React native video player component, used for Android, iOS.",
-  "main": "index",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BondGoat/react-native-native-video-player.git"
+  "_from": "react-native-native-video-player",
+  "_id": "react-native-native-video-player@1.3.4",
+  "_inBundle": false,
+  "_integrity": "sha1-rFjJ1O5mwtwfT8iEufOs9USAQOQ=",
+  "_location": "/react-native-native-video-player",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-native-video-player",
+    "name": "react-native-native-video-player",
+    "escapedName": "react-native-native-video-player",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-native-video-player/-/react-native-native-video-player-1.3.4.tgz",
+  "_shasum": "ac58c9d4ee66c2dc1f4fc884b9f3acf5448040e4",
+  "_spec": "react-native-native-video-player",
+  "_where": "/Users/travisgibson/swift/GrappleArtContainer",
+  "author": {
+    "name": "Bond G. Nguyen"
+  },
+  "bugs": {
+    "url": "https://github.com/BondGoat/react-native-native-video-player/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React native video player component, used for Android, iOS.",
+  "homepage": "https://github.com/BondGoat/react-native-native-video-player/blob/master/README.md",
   "keywords": [
     "react-native-component",
     "react-component",
@@ -18,17 +44,15 @@
     "images",
     "player"
   ],
-  "author": "Bond G. Nguyen",
   "license": "WOG",
-  "bugs": {
-    "url": "https://github.com/BondGoat/react-native-native-video-player/issues"
-  },
+  "main": "index",
+  "name": "react-native-native-video-player",
   "peerDependencies": {
-    "react-native": ">=0.44.0"
+    "react-native": ">=0.30.0"
   },
-  "homepage": "https://github.com/BondGoat/react-native-native-video-player/blob/master/README.md",
-  "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BondGoat/react-native-native-video-player.git"
+  },
+  "version": "1.3.4"
 }

@@ -1,13 +1,21 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { NativeModules } from 'react-native'
+import React, {
+  PropTypes,
+  Component
+} from 'react';
 
-const { VideoPlayerManager } = NativeModules
+import {
+  View,
+  Text,
+  StyleSheet,
+  NativeModules,
+  TouchableHighlight,
+} from 'react-native';
+
+const { RNVideoPlayer } = NativeModules;
 
 module.exports = {
-  ...VideoPlayerManager,
 
   showVideoPlayer(url) {
-    return VideoPlayerManager.showVideoPlayer(url)
-  },
+    return RNVideoPlayer.showVideoPlayer(url);
+  }
 }
