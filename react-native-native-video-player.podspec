@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.platform       = :ios, "7.0"
-  s.source         = { :git => "https://github.com/travismgibson/react-native-native-video-player", :tag => "#{s.version}" }
+  s.source         = { :git => "https://github.com/travismgibson/react-native-native-video-player.git", :tag => "#{s.version}" }
   s.source_files   = "ios/RNVideoPlayer/*.{h,m}"
   s.dependency "React"
 end
